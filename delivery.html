@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Delivery Form</title>
+    </head>
+    <body bgcolor="gray">
+        <table bgcolor="white" align="center" cellpadding="10">
+            <tr>
+                <td colspan="2" align="center"><h2>Delivery Form</h2></td>
+            </tr>
+            <form>
+                <tr>
+                    <td align="right"><label for="name">Full Name:</label></td>
+                    <td><input type="text" id="name" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="address">Delivery Address:</label></td>
+                    <td><textarea id="address" required></textarea></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="phone">Phone Number:</label></td>
+                    <td><input type="tel" id="phone" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="item">Item to be Delivered:</label></td>
+                    <td><input type="text" id="item" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="date">Delivery Date:</label></td>
+                    <td><input type="date" id="date" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="time">Preferred Delivery Time:</label></td>
+                    <td><input type="time" id="time" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>

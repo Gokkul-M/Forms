@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Profile Form</title>
+    </head>
+    <body bgcolor="gray">
+        <table bgcolor="white" align="center" cellpadding="10">
+            <tr>
+                <td colspan="2" align="center"><h2>Profile Form</h2></td>
+            </tr>
+            <form>
+                <tr>
+                    <td align="right"><label for="name">Full Name:</label></td>
+                    <td><input type="text" id="name" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date" id="dob" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="address">Address:</label></td>
+                    <td><textarea id="address" required></textarea></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="bio">Bio:</label></td>
+                    <td><textarea id="bio" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Save Profile">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Check-in/Check-out Form</title>
+    </head>
+    <body bgcolor="gray">
+        <table bgcolor="white" align="center" cellpadding="10">
+            <tr>
+                <td colspan="2" align="center"><h2>Check-in / Check-out Form</h2></td>
+            </tr>
+            <form>
+                <tr>
+                    <td align="right"><label for="name">Full Name:</label></td>
+                    <td><input type="text" id="name" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="checkin">Check-in Date:</label></td>
+                    <td><input type="date" id="checkin" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="checkout">Check-out Date:</label></td>
+                    <td><input type="date" id="checkout" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="time">Time of Arrival:</label></td>
+                    <td><input type="time" id="time" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>

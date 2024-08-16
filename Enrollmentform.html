@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Enrollment Form</title>
+    </head>
+    <body bgcolor="gray">
+        <table bgcolor="white" align="center" cellpadding="10">
+            <tr>
+                <td colspan="2" align="center"><h2>Enrollment Form</h2></td>
+            </tr>
+            <form>
+                <tr>
+                    <td align="right"><label for="name">Full Name:</label></td>
+                    <td><input type="text" id="name" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="course">Course:</label></td>
+                    <td>
+                        <select id="course">
+                            <option>Select Course</option>
+                            <option>Course 1</option>
+                            <option>Course 2</option>
+                            <option>Course 3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date" id="dob" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Enroll">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
